@@ -1,0 +1,40 @@
+You are allowed to complete the assessment problems below 
+in whatever way you can but please answer the following
+ questions/points as part of your submission:
+
+1. How many hours did it take you to complete this assessment? 
+(Please keep try to keep track of how many hours you have spent working on each
+individual part of this assessment as best you can - an estimation is fine;
+we just want a rough idea.)
+
+I'd say i spend about 2 hours of Rescearching the Node Modules
+before i could write any code and a spend roughly 1 hour 
+writing and throubleshooting the code
+
+2. What online resources you have used?
+ (My lectures, YouTube, Stack overflow etc.)
+
+i payed attention to your lectures, and the links you send in the teams.
+i found some great youtube videos on the pakages and how they work and i had to use
+stack overflow to debug my cookie.js 
+
+3. Did you need to ask any of your friends in solving the problems.
+ (If yes, please mention name of the friend.
+  They must be amongst your class fellows.)
+
+Johney from dominion reminded me about the .gitignore file and help me with it
+
+4. Did you need to ask questions to any of your instructors? If so, 
+how many questions did you ask 
+(or how many help sessions did you require)?
+
+No was fairly straight forward.
+
+5. Rate (subjectively) the difficulty of each question from your own perspective,
+ and whether you feel confident that you can solve a similar but different 
+ problem requiring some of the same techniques 
+in the future now that you’ve completed this one.
+
+5/10 was fine after i did the required rescearch and yes i'd feel fairly 
+confindent using these modules in my future code
+
