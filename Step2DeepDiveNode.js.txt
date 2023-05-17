@@ -1,0 +1,39 @@
+1. Global = The Global Object is the Global Scope in Node.js simlar to the window object in browsers. it allows you define varibles and functions that are accessible from any module within your application. However it is generally recommended to aviod exessive use of global varibles to Maintain code modularity and aviod naming collisions
+
+Sample Code from (global.js)
+
+// Create a global variable
+global.GlobalVar = 'Hello, world!';
+
+// Access the global variable from another module
+console.log(GlobalVar);
+
+2. Require = the Require function is a core part of node.js module system. it allows you to import functionlity from other modules or installed packages. by using require you can modularize your code and maintain separation of concerns, making it easier to oragnize and manage your application's logic
+
+Sample Code from (require.js)
+
+// Import the built-in 'fs' module
+const fs = require('fs');
+
+// Read contents of a file asynchronously
+fs.readFile('myfile.txt', 'utf8', (err, data) => {
+  if (err) {
+    console.error('Error reading file:', err);
+    return;
+  }
+  console.log('File contents:', data);
+});
+
+3. Console = The Console Object provides meathods for outputting info to the terminal during development and debugging. it includes functions like 'log', 'error', 'warn', and many more. You can use these functions to log messages, inspect variables, and track the flow of your application.
+
+Sample Code from (console.js)
+
+// Log a message
+console.log('Hello, world!');
+
+// Output an error message
+console.error('An error occurred!');
+
+// Print a warning
+console.warn('Warning: Potential issue detected.');
+

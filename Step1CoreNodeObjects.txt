@@ -1,0 +1,25 @@
+These are the 11 Node.js Global Objects that I have used in prevested project or pan to incorprate in my next project!
+
+1. Global = object in Node.js, Similar to the window object in browsers, ptovides access to global varibles and functions
+
+2. Process = Object Provides info and control over the current node.js process, such as accessing environment varibles, managing command-line arguments and more
+
+3. Console = Object Provides a simple debugging console used for logging messages to the console.
+it includes methods like 'log', 'error', 'warn', etc
+
+4. Buffer = Class provides a way to handle Binary Data in Node.js. it is Primary used to interact with streams and to work with tcp/udp data, file system operations and cryptography
+
+5. Require = function is used to include modules in node.js. it allows you to import functionality from other java script files or installed pakages
+
+6. Module = Object represents the currentmodule in node.js and provides info about the modile, such as it filename, exports and other metadata
+
+7. Exports = Object is used to expose functionality from a module to be used by other modules. It is a referance to module.exports and simplifies the process of exporting values
+
+8. __filename = varible represents the absolute path of the current module file
+
+9. __dirname = varible represents the absolute path of the dir containing the current module file
+
+10. setTimeout/clearTimeout, setInterval/clearInterval = These functions are used for scheduling the execution of code at a later time, (using timeouts) They allow you preform asynchronous operations and handle time bases events
+
+11. Promise = object represents the eventual completion (or failure) of an asynchronous operation and its resulting value. promises are used to handle asynchronous operations and simplify programing
+
